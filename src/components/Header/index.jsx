@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import i18next from "i18next";
+import { NavLink } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import "./style.scss";
 
@@ -43,11 +44,11 @@ const index = () => {
     return (
         <header className={`py-[30px]  fixed top-0 left-0 z-50 w-full ${color ? 'bg-transparent' : 'bg-[#000000B3]'} ${menu ? 'bg-white' : null} duration-200`}>
             <div className="container">
-                <nav className="flex items-cnter justify-between sm:text-[13px] md:text-[14px] lg:text-[18px] text-white">
-                    <a href="#"><span className={`font-['NunitoExtraBold'] ${menu ? 'text-black' : 'text-white'}`}>STORK TOUR</span></a>
+                <nav className="flex items-cnter  gap-x-5 justify-between sm:text-[13px] md:text-[14px] lg:text-[18px] text-white">
+                    <NavLink to="/"><span className={`font-['NunitoExtraBold'] ${menu ? 'text-black' : 'text-white'}`}>Andijon</span></NavLink>
 
-                    <ul className="hidden sm:flex  sm:gap-x-[10px] md:gap-x-[20px] lg:gap-x-[50px]  items-center font-['MontserratRegular']">
-                        <li className="list-item"><a href="#"> {t("home")}</a></li>
+                    <ul className="hidden sm:flex  sm:gap-x-[10px] md:gap-x-[20px] lg:gap-x-[50px]   items-center font-['MontserratRegular']">
+                        <NavLink to="/about" className="list-item"><a href="#"> {t("home")}</a></NavLink>
                         <li className="list-item"><a href="#"> {t("about")}</a></li>
                         <li className="list-item"><a href="#"> {t("travel")}</a></li>
                         <li className="list-item"><a href="#"> {t("feedbacks")}</a></li>

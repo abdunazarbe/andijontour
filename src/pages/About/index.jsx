@@ -1,12 +1,12 @@
 
 
 import "./style.scss"
-
+import Xonabod from "../../assets/images/xonabod sihatgohi.jpg"
 const index = () => {
     return (
         <section>
             <div className="container">
-                <h1>About</h1>
+                <img src={Xonabod} alt="" />
             </div>
         </section>
     );

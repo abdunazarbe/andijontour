@@ -1,8 +1,8 @@
 
 export const uz = {
 
-    home: "Bosh sahifa",
-    about: "Andijon haqida",
+    home: "Rekurtsiya va resusrlari",
+    about: "Transport va tur firmalari",
     travel: "Tarixiy obida va muzeylar",
     feedbacks: "Agroturizm",
     introTitle: "Andijondagi eng yaxshi sayohat obyektlari",
@@ -27,7 +27,7 @@ export const uz = {
 
     offerTitle: "Andijonda turizmning barcha turlarini taklif etamiz",
 
-    footerContact: "Kontaktlar",
+    footerContact: "Mexmonxona va mexmon uylari",
     footerAuth: "Mualliflik huquqi © 2023 • Barcha huquqlar himoyalangan.",
     footerSocials: "Ijtimoiy tarmoqlar",
     footerConData: "Aloqa ma'lumotlari",

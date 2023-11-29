@@ -1,8 +1,8 @@
 
 export const en = {
 
-    home: "Home",
-    about: "About",
+    home: "Recortions and rhesus",
+    about: "Transport and tour companies",
     travel: "Historical places and museums",
     feedbacks: "Feedbacks",
 
@@ -26,7 +26,7 @@ export const en = {
 
     offerTitle: "Andijan offers all types of tourism",
 
-    footerContact: "Contacts",
+    footerContact: "Hotel and guest houses",
     footerAuth: "Copyright © 2023 • All rights reserved.",
     footerSocials: "Social media",
     footerConData: "Contact details",
