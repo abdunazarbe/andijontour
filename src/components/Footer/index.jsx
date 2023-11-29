@@ -12,7 +12,7 @@ const index = () => {
                 <div className="flex flex-col">
                     <div className="flex-col md:flex-row flex justify-between mb-[40px] md:mb-[80px] md:flex-wrap">
                         <div className="mx-auto md:mx-0 mb-[20px] md:mb-[0px]">
-                            <Logo />
+                            <h1>Andijan</h1>
                         </div>
 
                         <ul className="flex md:flex-col gap-[25px] md:gap-y-[10px] flex-wrap mb-5 md:mb-0">

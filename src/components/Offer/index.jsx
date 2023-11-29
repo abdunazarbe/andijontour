@@ -1,7 +1,7 @@
-
+import { useTranslation } from "react-i18next";
 
 import pic from "../../assets/images/imomota.jpg";
-import { useTranslation } from "react-i18next";
+
 import Carousel from "../UI/Carousel";
 
 import { ArrowLeft, ArrowRight } from "../Icons";
